@@ -1,7 +1,7 @@
-'use strict';
+export const piyo = () => {
+  console.log("piyopiyo!!");
+}
 
-module.exports = kinPiyo;
-
-function kinPiyo() {
-    // TODO
+export const piyo2 = () => {
+  console.log("piyo2piyo2!!");
 }

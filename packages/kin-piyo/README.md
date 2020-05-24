@@ -4,6 +4,8 @@
 
 ## Usage
 
+This is webpack sample
+
 ```
 const kinPiyo = require('kin-piyo');
 

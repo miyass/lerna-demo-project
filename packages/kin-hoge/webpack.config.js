@@ -6,13 +6,17 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js"
   },
-  entry: './src/main.ts',
+  entry: './src/index.ts',
   module: {
     rules: [
       {
         test: /\.ts$/,
         use: 'ts-loader',
       },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      }
     ],
   },
   resolve: {
